@@ -6,10 +6,55 @@
     <title>Document</title>
     
 </head>
+<style>
+    
+    table,th,td{
+        border:1px solid black;
+        border-radius: 10px;
+        border-style:dotted;
+        padding: 10px;
+        border-spacing: 2px;
+
+    }
+    td{
+            background-color: lightgreen;
+        }
+    td:nth-child(even)  {
+        background-color: lightskyblue;
+    }  
+     th:nth-child(even)  {
+        background-color: lightpink;
+    }  
+    td:hover{
+        background-color:yellow
+    }
+</style>
 <body>
-    <h1>h1</h1>
-    <h2>hello</h2>
-    <h3>good morniing</h3>
+    <table style="width:100px">
+        <caption>student detail</caption>
+        <col span="1" style="background-color: red">
+        <tr>
+            <th>srno</th>
+            <th >name</th>
+            <th>roll no</th>
+        </tr>
+        <tr>
+
+            <td>1</td>
+            <td>aparna</td>
+            <td>11</td>
+        </tr>
+    </table>
+    <ul>
+        <li>coffee</li>
+        <li>tea</li>
+        <li>milk</li>
+    </ul>
+    <ol>
+        <dt>coffee</dt>
+        <dt>tea</td>
+        <dt>milk</dt>
+    </ol>
 
 </body>
 </html>
