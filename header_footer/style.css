@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    background-color: #333;
+    color: white;
+    padding:100px 0;
+    text-align: center;
+    font-family: 'Arima',cursive;
+}
+header h1{
+    margin: 0;
+    font-size: 24px;
+
+}
+main{
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(22, 166, 177);
+}
+footer{
+        background-color: #333;
+    color: rgb(184, 22, 196);
+    padding: 15px;
+    text-align: center;
+
+}
+.social-icon{
+    margin: 10px;
+}
+.social-icon a{
+    color: darkgoldenrod;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 15px;
+    transition:color 0.3s ease;
+}
+.social-icon a.youtube:hover{
+    color: rgb(186, 11, 104);
+}
+.social-icon a.instagram:hover{
+    color: rgb(44, 219, 28);
+}
+@media (max-width:500px){
+
+    header p{
+        font-size: 20px;
+    }
+    .social-icon a{
+        font-size: 12px;
+        margin: 0 5px;
+
+    }
+}
